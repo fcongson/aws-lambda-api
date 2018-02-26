@@ -3,6 +3,8 @@
 const connectToDatabase = require('./db');
 const Bear = require('./models/Bear');
 
+require('dotenv').config({ path: './variables.env' });
+
 module.exports.create = (event, context, callback) => {
   context.callbackWaitsForEmptyEventLoop = false;
 
