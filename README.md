@@ -21,8 +21,26 @@ MongoDB Cloud Atlas
 https://www.mongodb.com/cloud/atlas
 ```
 
-Offline Testing
+Serverless Offline Testing
 
 ```
 sls offline start --skipCacheInvalidation
+```
+
+Serverless AWS CLI Reference
+
+```
+https://serverless.com/framework/docs/providers/aws/cli-reference/
+```
+
+Serverless Deploy To AWS
+
+```
+sls deploy
+```
+
+Serverless Remove From AWS
+
+```
+sls remove
 ```
