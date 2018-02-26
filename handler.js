@@ -1,6 +1,7 @@
 "use strict";
 
 const connectToDatabase = require('./db');
+const Bear = require('./models/Bear');
 
 module.exports.create = (event, context, callback) => {
   context.callbackWaitsForEmptyEventLoop = false;
