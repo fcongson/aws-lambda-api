@@ -1,0 +1,19 @@
+{
+  "name": "aws-lambda-api",
+  "version": "1.0.0",
+  "description": "**Reference**",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^3.18.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "mongoose": "^5.0.7"
+  }
+}
